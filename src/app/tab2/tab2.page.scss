@@ -1,0 +1,59 @@
+/* Estilos para el contenedor de la cabecera */
+.header-container {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Estilos para el contenedor del perfil */
+  .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  /* Estilos para la imagen de perfil */
+  .profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para la información del perfil */
+  .profile-info h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  /* Estilos para el contenedor de los posts */
+  .post-container {
+    background-color: #000;
+    padding: 20px;
+  }
+  
+  /* Estilos para las filas de los posts */
+  .post-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para cada item de post */
+  .post-item {
+    flex-basis: calc(33.33% - 10px);
+  }
+  
+  .post-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
